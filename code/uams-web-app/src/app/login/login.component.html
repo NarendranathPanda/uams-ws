@@ -1,0 +1,53 @@
+<div class="container">
+
+  <h1>Login</h1>
+
+  <form (ngSubmit)="onFormSubmit()" [formGroup]="loginForm" #formDir="ngForm" >
+
+    <div [hidden]="formDir.submitted">
+
+      <div class="form-group">
+
+        <label for="email">Email</label>
+        <input id="email" class="form-control"
+               formControlName="email" required >
+
+        <div *ngIf="email.invalid && (email.dirty || email.touched)"
+             class="alert alert-danger">
+
+          <div *ngIf="email.errors.required">
+            email is required.
+          </div>
+          <div *ngIf="email.errors.minlength">
+            email must be at least 4 characters long.
+          </div>
+          <div *ngIf="email.errors?.email"> 
+			email not valid.
+		  </div> 
+
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="passwod">Password</label>
+        <input type="password" id="passwod" class="form-control"
+            formControlName="passwod"  >
+      </div>
+
+     
+
+      <button type="submit" class="btn btn-default"
+             [disabled]="loginForm.invalid" (click)="formDir.onSubmit()">Submit</button>&nbsp;
+      <button type="button" class="btn btn-default"
+             (click)="formDir.resetForm({})">Reset</button>
+    </div>
+  </form>
+ <br>
+</div>
+
+
+<!-- 
+Copyright 2017-2018 Google Inc. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at http://angular.io/license
+-->
