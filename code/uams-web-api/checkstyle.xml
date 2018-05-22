@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<checkstyle version="4.3">
+<file name="\Application.ts">
+<error line="16" column="1" severity="error" message="trailing whitespace" source="no-trailing-whitespace"/>
+<error line="22" column="1" severity="error" message="trailing whitespace" source="no-trailing-whitespace"/>
+<error line="36" column="1" severity="error" message="trailing whitespace" source="no-trailing-whitespace"/>
+<error line="37" column="1" severity="error" message="trailing whitespace" source="no-trailing-whitespace"/>
+<error line="2" column="23" severity="error" message="&#39; should be &quot;" source="quotemark"/>
+<error line="3" column="26" severity="error" message="&#39; should be &quot;" source="quotemark"/>
+<error line="5" column="29" severity="error" message="&#39; should be &quot;" source="quotemark"/>
+<error line="9" column="5" severity="error" message="expected variable-declaration: &#39;hostname&#39; to have a typedef" source="typedef"/>
+<error line="10" column="5" severity="error" message="expected variable-declaration: &#39;defaultPort&#39; to have a typedef" source="typedef"/>
+<error line="41" column="12" severity="error" message="expected call-signature: &#39;start&#39; to have a typedef" source="typedef"/>
+<error line="41" column="18" severity="error" message="expected parameter: &#39;server&#39; to have a typedef" source="typedef"/>
+</file>
+<file name="\config/app.utils.response.handler.ts">
+<error line="22" column="1" severity="error" message="trailing whitespace" source="no-trailing-whitespace"/>
+<error line="14" column="12" severity="error" message="expected call-signature: &#39;sendHttpResponse&#39; to have a typedef" source="typedef"/>
+</file>
+<file name="\config/constants.ts">
+</file>
+<file name="\config/express.ts">
+<error line="24" column="7" severity="error" message="comment must start with lowercase letter" source="comment-format"/>
+<error line="29" column="7" severity="error" message="comment must start with lowercase letter" source="comment-format"/>
+<error line="32" column="1" severity="error" message="trailing whitespace" source="no-trailing-whitespace"/>
+<error line="10" column="5" severity="error" message="expected variable-declaration: &#39;helmet&#39; to have a typedef" source="typedef"/>
+<error line="11" column="5" severity="error" message="expected variable-declaration: &#39;cors&#39; to have a typedef" source="typedef"/>
+<error line="12" column="5" severity="error" message="expected variable-declaration: &#39;corsOptions&#39; to have a typedef" source="typedef"/>
+<error line="18" column="25" severity="error" message="expected call-signature: &#39;config&#39; to have a typedef" source="typedef"/>
+</file>
+<file name="\config/http.codes.ts">
+</file>
+<file name="\config/logger.ts">
+<error line="3" column="5" severity="error" message="expected variable-declaration: &#39;path&#39; to have a typedef" source="typedef"/>
+<error line="4" column="5" severity="error" message="expected variable-declaration: &#39;winston_dailly_rotate&#39; to have a typedef" source="typedef"/>
+<error line="5" column="7" severity="error" message="expected variable-declaration: &#39;tsFormat&#39; to have a typedef" source="typedef"/>
+<error line="7" column="5" severity="error" message="expected variable-declaration: &#39;transportConsole&#39; to have a typedef" source="typedef"/>
+<error line="19" column="16" severity="error" message="expected call-signature: &#39;Instance&#39; to have a typedef" source="typedef"/>
+</file>
+<file name="\config/testConstants.ts">
+</file>
+<file name="\controllers/login.service.controller.ts">
+<error line="19" column="1" severity="error" message="Exceeds maximum line length of 140" source="max-line-length"/>
+<error line="12" column="1" severity="error" message="trailing whitespace" source="no-trailing-whitespace"/>
+<error line="16" column="1" severity="error" message="trailing whitespace" source="no-trailing-whitespace"/>
+<error line="22" column="1" severity="error" message="trailing whitespace" source="no-trailing-whitespace"/>
+<error line="13" column="13" severity="error" message="expected variable-declaration: &#39;userCredentials&#39; to have a typedef" source="typedef"/>
+</file>
+<file name="\index.ts">
+<error line="20" column="1" severity="error" message="trailing whitespace" source="no-trailing-whitespace"/>
+<error line="24" column="1" severity="error" message="trailing whitespace" source="no-trailing-whitespace"/>
+<error line="1" column="23" severity="error" message="&#39; should be &quot;" source="quotemark"/>
+<error line="2" column="24" severity="error" message="&#39; should be &quot;" source="quotemark"/>
+<error line="4" column="25" severity="error" message="&#39; should be &quot;" source="quotemark"/>
+<error line="6" column="5" severity="error" message="expected variable-declaration: &#39;app&#39; to have a typedef" source="typedef"/>
+<error line="7" column="5" severity="error" message="expected variable-declaration: &#39;swaggerUi&#39; to have a typedef" source="typedef"/>
+<error line="8" column="7" severity="error" message="expected variable-declaration: &#39;swaggerJSDoc&#39; to have a typedef" source="typedef"/>
+<error line="10" column="7" severity="error" message="expected variable-declaration: &#39;spec&#39; to have a typedef" source="typedef"/>
+</file>
+<file name="\routes/application.route.ts">
+<error line="7" column="17" severity="error" message="expected call-signature: &#39;create&#39; to have a typedef" source="typedef"/>
+</file>
+<file name="\routes/login.route.ts">
+<error line="21" column="1" severity="error" message="asterisks in jsdoc must be aligned" source="jsdoc-format"/>
+<error line="22" column="1" severity="error" message="asterisks in jsdoc must be aligned" source="jsdoc-format"/>
+<error line="23" column="1" severity="error" message="asterisks in jsdoc must be aligned" source="jsdoc-format"/>
+<error line="24" column="1" severity="error" message="jsdoc is not formatted correctly on this line" source="jsdoc-format"/>
+<error line="24" column="1" severity="error" message="asterisks in jsdoc must be aligned" source="jsdoc-format"/>
+<error line="25" column="1" severity="error" message="jsdoc is not formatted correctly on this line" source="jsdoc-format"/>
+<error line="25" column="1" severity="error" message="asterisks in jsdoc must be aligned" source="jsdoc-format"/>
+<error line="26" column="1" severity="error" message="jsdoc is not formatted correctly on this line" source="jsdoc-format"/>
+<error line="26" column="1" severity="error" message="asterisks in jsdoc must be aligned" source="jsdoc-format"/>
+<error line="27" column="1" severity="error" message="jsdoc is not formatted correctly on this line" source="jsdoc-format"/>
+<error line="27" column="1" severity="error" message="asterisks in jsdoc must be aligned" source="jsdoc-format"/>
+<error line="28" column="1" severity="error" message="jsdoc is not formatted correctly on this line" source="jsdoc-format"/>
+<error line="28" column="1" severity="error" message="asterisks in jsdoc must be aligned" source="jsdoc-format"/>
+<error line="29" column="1" severity="error" message="jsdoc is not formatted correctly on this line" source="jsdoc-format"/>
+<error line="29" column="1" severity="error" message="asterisks in jsdoc must be aligned" source="jsdoc-format"/>
+<error line="30" column="1" severity="error" message="jsdoc is not formatted correctly on this line" source="jsdoc-format"/>
+<error line="30" column="1" severity="error" message="asterisks in jsdoc must be aligned" source="jsdoc-format"/>
+<error line="31" column="1" severity="error" message="jsdoc is not formatted correctly on this line" source="jsdoc-format"/>
+<error line="31" column="1" severity="error" message="asterisks in jsdoc must be aligned" source="jsdoc-format"/>
+<error line="32" column="1" severity="error" message="jsdoc is not formatted correctly on this line" source="jsdoc-format"/>
+<error line="32" column="1" severity="error" message="asterisks in jsdoc must be aligned" source="jsdoc-format"/>
+<error line="33" column="1" severity="error" message="jsdoc is not formatted correctly on this line" source="jsdoc-format"/>
+<error line="33" column="1" severity="error" message="asterisks in jsdoc must be aligned" source="jsdoc-format"/>
+<error line="34" column="1" severity="error" message="jsdoc is not formatted correctly on this line" source="jsdoc-format"/>
+<error line="34" column="1" severity="error" message="asterisks in jsdoc must be aligned" source="jsdoc-format"/>
+<error line="35" column="1" severity="error" message="jsdoc is not formatted correctly on this line" source="jsdoc-format"/>
+<error line="35" column="1" severity="error" message="asterisks in jsdoc must be aligned" source="jsdoc-format"/>
+<error line="36" column="1" severity="error" message="jsdoc is not formatted correctly on this line" source="jsdoc-format"/>
+<error line="36" column="1" severity="error" message="asterisks in jsdoc must be aligned" source="jsdoc-format"/>
+<error line="37" column="1" severity="error" message="jsdoc is not formatted correctly on this line" source="jsdoc-format"/>
+<error line="37" column="1" severity="error" message="asterisks in jsdoc must be aligned" source="jsdoc-format"/>
+<error line="38" column="1" severity="error" message="jsdoc is not formatted correctly on this line" source="jsdoc-format"/>
+<error line="38" column="1" severity="error" message="asterisks in jsdoc must be aligned" source="jsdoc-format"/>
+<error line="39" column="1" severity="error" message="jsdoc is not formatted correctly on this line" source="jsdoc-format"/>
+<error line="39" column="1" severity="error" message="asterisks in jsdoc must be aligned" source="jsdoc-format"/>
+<error line="40" column="1" severity="error" message="jsdoc is not formatted correctly on this line" source="jsdoc-format"/>
+<error line="40" column="1" severity="error" message="asterisks in jsdoc must be aligned" source="jsdoc-format"/>
+<error line="41" column="1" severity="error" message="jsdoc is not formatted correctly on this line" source="jsdoc-format"/>
+<error line="41" column="1" severity="error" message="asterisks in jsdoc must be aligned" source="jsdoc-format"/>
+<error line="42" column="1" severity="error" message="jsdoc is not formatted correctly on this line" source="jsdoc-format"/>
+<error line="42" column="1" severity="error" message="asterisks in jsdoc must be aligned" source="jsdoc-format"/>
+<error line="43" column="1" severity="error" message="jsdoc is not formatted correctly on this line" source="jsdoc-format"/>
+<error line="43" column="1" severity="error" message="asterisks in jsdoc must be aligned" source="jsdoc-format"/>
+<error line="44" column="1" severity="error" message="jsdoc is not formatted correctly on this line" source="jsdoc-format"/>
+<error line="44" column="1" severity="error" message="asterisks in jsdoc must be aligned" source="jsdoc-format"/>
+<error line="45" column="1" severity="error" message="jsdoc is not formatted correctly on this line" source="jsdoc-format"/>
+<error line="45" column="1" severity="error" message="asterisks in jsdoc must be aligned" source="jsdoc-format"/>
+<error line="46" column="1" severity="error" message="jsdoc is not formatted correctly on this line" source="jsdoc-format"/>
+<error line="46" column="1" severity="error" message="asterisks in jsdoc must be aligned" source="jsdoc-format"/>
+<error line="47" column="1" severity="error" message="jsdoc is not formatted correctly on this line" source="jsdoc-format"/>
+<error line="47" column="1" severity="error" message="asterisks in jsdoc must be aligned" source="jsdoc-format"/>
+<error line="48" column="1" severity="error" message="jsdoc is not formatted correctly on this line" source="jsdoc-format"/>
+<error line="48" column="1" severity="error" message="asterisks in jsdoc must be aligned" source="jsdoc-format"/>
+<error line="49" column="1" severity="error" message="jsdoc is not formatted correctly on this line" source="jsdoc-format"/>
+<error line="49" column="1" severity="error" message="asterisks in jsdoc must be aligned" source="jsdoc-format"/>
+<error line="50" column="1" severity="error" message="jsdoc is not formatted correctly on this line" source="jsdoc-format"/>
+<error line="50" column="1" severity="error" message="asterisks in jsdoc must be aligned" source="jsdoc-format"/>
+<error line="51" column="1" severity="error" message="jsdoc is not formatted correctly on this line" source="jsdoc-format"/>
+<error line="51" column="1" severity="error" message="asterisks in jsdoc must be aligned" source="jsdoc-format"/>
+<error line="52" column="1" severity="error" message="jsdoc is not formatted correctly on this line" source="jsdoc-format"/>
+<error line="52" column="1" severity="error" message="asterisks in jsdoc must be aligned" source="jsdoc-format"/>
+<error line="53" column="1" severity="error" message="jsdoc is not formatted correctly on this line" source="jsdoc-format"/>
+<error line="53" column="1" severity="error" message="asterisks in jsdoc must be aligned" source="jsdoc-format"/>
+<error line="54" column="1" severity="error" message="jsdoc is not formatted correctly on this line" source="jsdoc-format"/>
+<error line="54" column="1" severity="error" message="asterisks in jsdoc must be aligned" source="jsdoc-format"/>
+<error line="55" column="1" severity="error" message="jsdoc is not formatted correctly on this line" source="jsdoc-format"/>
+<error line="55" column="1" severity="error" message="asterisks in jsdoc must be aligned" source="jsdoc-format"/>
+<error line="56" column="1" severity="error" message="jsdoc is not formatted correctly on this line" source="jsdoc-format"/>
+<error line="56" column="1" severity="error" message="asterisks in jsdoc must be aligned" source="jsdoc-format"/>
+<error line="57" column="1" severity="error" message="jsdoc is not formatted correctly on this line" source="jsdoc-format"/>
+<error line="57" column="1" severity="error" message="asterisks in jsdoc must be aligned" source="jsdoc-format"/>
+<error line="58" column="1" severity="error" message="jsdoc is not formatted correctly on this line" source="jsdoc-format"/>
+<error line="58" column="1" severity="error" message="asterisks in jsdoc must be aligned" source="jsdoc-format"/>
+<error line="59" column="1" severity="error" message="jsdoc is not formatted correctly on this line" source="jsdoc-format"/>
+<error line="59" column="1" severity="error" message="asterisks in jsdoc must be aligned" source="jsdoc-format"/>
+<error line="60" column="1" severity="error" message="jsdoc is not formatted correctly on this line" source="jsdoc-format"/>
+<error line="60" column="1" severity="error" message="asterisks in jsdoc must be aligned" source="jsdoc-format"/>
+<error line="61" column="1" severity="error" message="jsdoc is not formatted correctly on this line" source="jsdoc-format"/>
+<error line="61" column="1" severity="error" message="asterisks in jsdoc must be aligned" source="jsdoc-format"/>
+<error line="62" column="1" severity="error" message="jsdoc is not formatted correctly on this line" source="jsdoc-format"/>
+<error line="62" column="1" severity="error" message="asterisks in jsdoc must be aligned" source="jsdoc-format"/>
+<error line="63" column="1" severity="error" message="jsdoc is not formatted correctly on this line" source="jsdoc-format"/>
+<error line="63" column="1" severity="error" message="asterisks in jsdoc must be aligned" source="jsdoc-format"/>
+<error line="64" column="1" severity="error" message="asterisks in jsdoc must be aligned" source="jsdoc-format"/>
+<error line="14" column="41" severity="error" message="trailing whitespace" source="no-trailing-whitespace"/>
+<error line="18" column="1" severity="error" message="trailing whitespace" source="no-trailing-whitespace"/>
+<error line="19" column="1" severity="error" message="trailing whitespace" source="no-trailing-whitespace"/>
+<error line="71" column="1" severity="error" message="trailing whitespace" source="no-trailing-whitespace"/>
+<error line="12" column="20" severity="error" message="&#39; should be &quot;" source="quotemark"/>
+<error line="14" column="28" severity="error" message="&#39; should be &quot;" source="quotemark"/>
+<error line="65" column="14" severity="error" message="&#39; should be &quot;" source="quotemark"/>
+<error line="66" column="19" severity="error" message="&#39; should be &quot;" source="quotemark"/>
+<error line="66" column="35" severity="error" message="&#39; should be &quot;" source="quotemark"/>
+<error line="69" column="15" severity="error" message="&#39; should be &quot;" source="quotemark"/>
+<error line="68" column="7" severity="error" message="Missing semicolon" source="semicolon"/>
+<error line="67" column="31" severity="error" message="Missing semicolon" source="semicolon"/>
+<error line="69" column="54" severity="error" message="Missing semicolon" source="semicolon"/>
+<error line="4" column="5" severity="error" message="expected variable-declaration: &#39;cors&#39; to have a typedef" source="typedef"/>
+<error line="6" column="5" severity="error" message="expected variable-declaration: &#39;corsOptions&#39; to have a typedef" source="typedef"/>
+<error line="12" column="7" severity="error" message="expected variable-declaration: &#39;fs&#39; to have a typedef" source="typedef"/>
+<error line="14" column="5" severity="error" message="expected variable-declaration: &#39;info&#39; to have a typedef" source="typedef"/>
+<error line="17" column="17" severity="error" message="expected call-signature: &#39;create&#39; to have a typedef" source="typedef"/>
+<error line="65" column="28" severity="error" message="expected call-signature to have a typedef" source="typedef"/>
+<error line="65" column="29" severity="error" message="expected parameter: &#39;req&#39; to have a typedef" source="typedef"/>
+<error line="65" column="34" severity="error" message="expected parameter: &#39;res&#39; to have a typedef" source="typedef"/>
+</file>
+<file name="\services/loginService.ts">
+<error line="20" column="43" severity="error" message="trailing whitespace" source="no-trailing-whitespace"/>
+<error line="21" column="1" severity="error" message="trailing whitespace" source="no-trailing-whitespace"/>
+<error line="24" column="1" severity="error" message="trailing whitespace" source="no-trailing-whitespace"/>
+<error line="18" column="25" severity="error" message="expected parameter: &#39;userCredentials&#39; to have a typedef" source="typedef"/>
+</file>
+</checkstyle>
